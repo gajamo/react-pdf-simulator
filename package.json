@@ -1,11 +1,18 @@
 {
-  "name": "react-pdf",
+  "name": "react-pdf-simulator",
   "version": "0.1.0",
-  "private": true,
+  "description": "This component allows you to set html code as if it were PDF",
+  "main": "build/index.js",
+  "jsnext:main": "./src/index.js",
+  "peerDependencies": {
+    "react": "^16.5.2"
+  },
   "dependencies": {
-    "jspdf": "^1.4.1",
+    "@material-ui/core": "^3.2.0",
+    "@material-ui/icons": "^3.0.1",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
+    "react-flexbox-grid": "^2.1.2",
     "react-scripts": "2.0.4"
   },
   "scripts": {
@@ -13,6 +20,18 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "keywords": [
+    "react",
+    "reactjs",
+    "pdf",
+    "pdfjs",
+    "react-pdf-simulator",
+    "react-pdf"
+  ],
+  "author": {
+    "name": "Johan Navarro",
+    "email": "21sebas12@gmail.com"
   },
   "eslintConfig": {
     "extends": "react-app"
